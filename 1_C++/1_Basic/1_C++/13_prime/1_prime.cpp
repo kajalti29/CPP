@@ -1,3 +1,7 @@
+// Prime number ka matlab hai aise natural number jo sirf 1 aur apne aap se divide ho sake (jaise 2, 3, 5, 7, 11 …).
+
+
+
 #include<iostream>
 using namespace std;
 
