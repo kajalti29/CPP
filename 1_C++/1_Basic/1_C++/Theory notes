@@ -1,0 +1,100 @@
+Sure! Here’s a **list of important C++ questions** that are commonly asked in **interviews, exams, and practice**. I’ve categorized them for clarity:
+
+---
+
+## **1. Basics / Fundamentals**
+
+1. What is C++ and its features?
+2. Difference between C and C++.
+3. What are variables and data types in C++?
+4. What is a constant, literal, and identifier?
+5. What are operators in C++? (Arithmetic, relational, logical, bitwise, unary, ternary)
+6. Explain typecasting in C++.
+7. What is the difference between `cin` and `cout`?
+
+---
+
+## **2. Control Statements**
+
+1. Explain `if`, `if-else`, `nested if-else`.
+2. Difference between `switch` and `if-else`.
+3. Loops in C++: for, while, do-while.
+4. Difference between `break` and `continue`.
+5. What is a nested loop?
+6. What is the difference between `goto` and loops?
+
+---
+
+## **3. Functions**
+
+1. What is a function? Types of functions.
+2. Difference between **call by value** and **call by reference**.
+3. What is function overloading?
+4. What is a **recursive function**?
+5. What is an **inline function**?
+6. What is a default argument in functions?
+
+---
+
+## **4. Arrays and Strings**
+
+1. What is an array? Types of arrays.
+2. Difference between **1D and 2D arrays**.
+3. How to pass arrays to functions?
+4. Difference between **C-style strings and `string` class**.
+5. String operations (`length`, `concat`, `compare`, `substr`).
+
+---
+
+## **5. Pointers**
+
+1. What is a pointer?
+2. Difference between pointer and reference.
+3. How to declare and initialize a pointer?
+4. What is `nullptr`?
+5. Pointer arithmetic.
+6. What is a pointer to a function?
+
+---
+
+## **6. Object-Oriented Concepts**
+
+1. What is OOP?
+2. Explain **class and object** in C++.
+3. What is **constructor** and **destructor**?
+4. What is **this pointer**?
+5. What is **inheritance**? Types of inheritance.
+6. What is **polymorphism**? (Compile-time and Run-time)
+7. What is **function overloading** vs **function overriding**?
+8. What is **encapsulation** and **abstraction**?
+9. What is a **virtual function** and **pure virtual function**?
+10. What is an **abstract class**?
+
+---
+
+## **7. Advanced Topics**
+
+1. What are **templates** in C++? (Function & Class templates)
+2. What are **STL containers** (vector, list, map, set)?
+3. Difference between **stack and heap memory**.
+4. Exception handling in C++ (`try`, `catch`, `throw`).
+5. What is **friend function**?
+6. Difference between **shallow copy and deep copy**.
+7. What is **dynamic memory allocation** (`new` and `delete`)?
+8. Explain **operator overloading**.
+
+---
+
+## **8. Miscellaneous**
+
+1. Difference between **struct and class**.
+2. What is **namespace**?
+3. Difference between **C++98/03, C++11, C++14, C++17 features**.
+4. What is **RAII**?
+5. Difference between **static and dynamic binding**.
+
+---
+
+If you want, I can make a **very compact “most important 50 questions with answers” PDF-style sheet** for **quick C++ revision**.
+
+Do you want me to do that?
