@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-main(){
-    cout <<"4";
-}
 
+int main() {
+    cout << "This is my first C++ program.";
+    return 0;
+}
