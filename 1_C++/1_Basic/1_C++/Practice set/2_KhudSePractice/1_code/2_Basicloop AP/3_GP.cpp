@@ -13,6 +13,5 @@ int main(){
     for(int i=1;i<=n;i++){
         cout<<a<<" ";
         a *=2;// a=a*2
-
     }
 }
