@@ -2,3 +2,68 @@ KAAM KI BAATE:-
 1) MAIN() ek hi bar aata hai.
 2)Starts ith MAIN
 3) Unlimated Functions
+
+// logical set of code - perform a specific task.
+Ye reusability :- mtlb same code ko ham bar bar use kar sakte hai.
+
+C++ me function ke 4 main parts hote hain:
+Return type – ye batata hai function kya return karega (int, float, char, void, etc.)
+Function name – function ka unique naam
+Parameters / Arguments – input values jo function ko di jaati hain
+Function body – curly braces {} ke andar ka code jo kaam karta hai.
+
+
+Types:-
+1. User-defined Functions
+2. Standard Library Function
+
+How to declare Function:-
+return_type function_name(parameter1, parameter2....){
+    statements;
+}
+
+1.Function name:_
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {   // here, 'add' is the function name
+    return a + b;
+}
+
+int main() {
+    int sum = add(5, 3);  // calling the function using its name
+    cout << "Sum = " << sum;
+    return 0;
+}
+
+....................................................
+2.return type:-
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {   // return type is int
+    return a + b;          // returns an integer
+}
+
+int main() {
+    int sum = add(5, 3);
+    cout << "Sum = " << sum;
+    return 0;
+}
+
+........................................................
+3.parameters:-
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {  // 'a' and 'b' are parameters
+    return a + b;
+}
+
+int main() {
+    int sum = add(5, 3);  // 5 and 3 are arguments
+    cout << "Sum = " << sum;
+    return 0;
+}
+
+
