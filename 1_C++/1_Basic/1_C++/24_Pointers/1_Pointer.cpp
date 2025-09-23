@@ -8,4 +8,3 @@ int main(){
     
 }
 
-// NOTE:- Pointer jo hai, o x ke address ko store karta hai

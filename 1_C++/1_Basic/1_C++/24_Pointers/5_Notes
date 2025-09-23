@@ -1,0 +1,22 @@
+// NOTE:- Pointer jo hai, o x ke address ko store karta hai
+
+// 👉 Pointer एक variable होता है जो किसी दूसरे variable का memory address store करता है।
+// 👉 A pointer is a variable that stores the memory address of another variable.
+// 🔹 Pointer क्यों useful है?
+// Functions में pass by reference के लिए
+// Data structures (Linked List, Tree, Graph) implement करने में.
+
+
+// Qun 2. Difference between normal variable and pointer?
+// Normal variable → value store करता है.
+// Pointer → उस value का address store करता है.
+
+
+//Qun 3. Difference between & and * operators?
+// & → address-of operator (variable का address देता है)
+// * → dereference operator (address पर stored value देता है)
+
+
+// Qun 4. What is the use of new and delete in C++?
+// new → dynamically memory allocate करता है (runtime पर).
+// delete → allocated memory free करता है.
