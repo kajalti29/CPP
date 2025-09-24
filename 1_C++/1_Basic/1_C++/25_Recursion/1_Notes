@@ -1,0 +1,47 @@
+; Recursion क्या है?
+👉 जब कोई function खुद को call करता है, उसे recursion कहते हैं।
+मतलब, function अपने अंदर से खुद को बार-बार call करता है जब तक कोई base condition ना मिल जाए।ans
+
+
+
+; Qun 2. Difference between recursion and iteration?
+
+👉 Recursion में function खुद को call करता है, iteration में loops use होते हैं।
+Recursion memory ज्यादा consume करता है, iteration fast और memory-efficient है।
+
+
+
+; Recursive function examples
+1. Factorial: n * factorial(n-1)
+2. Fibonacci: f(n-1) + f(n-2)
+3. Sum of digits: sum(n/10) + (n%10)
+
+..................................................................................................................
+
+return_type function_name(parameters) {
+    
+    // 1️⃣ Base Case: recursion ko rokne ke liye
+    if (condition) {
+        return value; // ya kuch kaam nahi karna
+    }
+
+    // 2️⃣ Recursive Case: function khud ko call kare chhoti problem ke saath
+    return function_name(smaller_problem); // ya koi calculation ke saath
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
