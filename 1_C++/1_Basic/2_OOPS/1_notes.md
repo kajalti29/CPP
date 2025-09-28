@@ -1,3 +1,9 @@
+OOPS in C++
+
+👉 C++ एक object-oriented programming language है।
+इसमें हम classes और objects की मदद से real world चीज़ों को represent कर सकते हैं।
+
+
 Classes & OBjects:-
 
 

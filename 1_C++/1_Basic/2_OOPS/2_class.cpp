@@ -1,3 +1,7 @@
+// Class:-
+// Class एक blueprint है।
+// इसमें properties (data members) और functions (methods) define होते हैं।
+
 #include<iostream>
 #include<string>
 using namespace std;
