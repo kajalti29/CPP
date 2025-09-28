@@ -1,0 +1,7 @@
+Constructor:-
+Special method invoked automatically at time of objects creation.
+
+
+
+Constructor ek special function hai jo class ka object create hote hi automatically call hota hai.
+Iska kaam hota hai: object ki initial value set karna.
