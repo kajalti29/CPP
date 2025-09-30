@@ -1,6 +1,14 @@
 Constructor:-
 Special method invoked automatically at time of objects creation.
+used for Initialisation:-
+1.same name as class
+2.Constructor doesn,t have a return type
+3.Only called once(automatically), at object creation
+4.Memory allocation happens when Constructor is called
 
+
+
+//ise  public me declared karte hai
 
 
 Constructor ek special function hai jo class ka object create hote hi automatically call hota hai.
