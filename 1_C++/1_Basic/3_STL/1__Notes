@@ -1,0 +1,19 @@
+STL:_ Standard Template Library
+     .Containers
+     .Iterators
+     .Algorithms
+     .Functors
+
+
+Vector:-
+    Vector<int>vec={1, 2};
+    Vector<int>vec{3, 10};
+    Vector<int>vec2{vec1};
+
+Vector Functors:-
+    .size & capacity
+    .push_back & pop_back //imp
+    .emplace_back
+    .at() or []
+    .front & pop_back    
+
