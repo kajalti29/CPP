@@ -1,3 +1,7 @@
+// push_back(x) → element को last में insert करता है।
+
+// pop_back() → last element remove करता है।
+
 #include<iostream>
 #include<vector>
 using namespace std;
