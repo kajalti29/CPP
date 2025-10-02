@@ -11,3 +11,5 @@ int main(){
     cout << "Size:" << v.capacity() <<endl;
 return 0;
 }
+
+//size:- Current elements ko count karna
