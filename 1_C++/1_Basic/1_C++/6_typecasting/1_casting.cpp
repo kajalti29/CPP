@@ -8,27 +8,27 @@
 
 // compiler automatic conversion karta hai.
 
-#include<iostream>
-using namespace std;
-int main(){
-    int x = 10;
-    float y = x;   // int से float में automatic conversion
-    cout << "x = " << x << endl;
-    cout << "y = " << y << endl;
-    return 0;
-}
-
-// 2. Explicit Typecasting (Type Casting by User)
-
 // #include<iostream>
 // using namespace std;
 // int main(){
-//     float pi = 3.14159;
-//     int x = (int)pi;    // float से int में convert किया
-//     cout << "pi = " << pi << endl;
+//     int x = 10;
+//     float y = x;   // int से float में automatic conversion
 //     cout << "x = " << x << endl;
+//     cout << "y = " << y << endl;
 //     return 0;
 // }
+
+// 2. Explicit Typecasting (Type Casting by User)
+
+#include<iostream>
+using namespace std;
+int main(){
+    float pi = 3.14159;
+    int x = (int)pi;    // float से int में convert किया
+    cout << "pi = " << pi << endl;
+    cout << "x = " << x << endl;
+    return 0;
+}
 
 
 
