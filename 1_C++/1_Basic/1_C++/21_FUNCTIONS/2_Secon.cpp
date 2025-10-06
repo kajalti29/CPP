@@ -1,17 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-void usa(){
-    cout<<"Hello, USA"<<endl;
+int add(int a, int b){   // function definition
+    return a + b;
 }
-void india(){
-    cout<<"Hello, India"<<endl;
-}
-int main(){
-    cout<<"You are in main"<<endl;
 
-    india();  // Function call
-    usa();    // Function call
-    
-return 0;
+int main(){
+    int x = 5, y = 3;
+    cout << "Sum = " << add(x, y);  // function call
+    return 0;
 }
+
