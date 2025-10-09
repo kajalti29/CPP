@@ -1,4 +1,4 @@
-// 1️⃣ Print first N natural numbers#include <iostream>
+// 1️⃣ Print first N natural numbers.
 #include<iostream>
 using namespace std;
 
