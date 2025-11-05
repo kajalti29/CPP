@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int a = 10, b = 20;
+    int max = (a > b) ? a : b; // if a>b then max=a else max=b
+    cout << "Max = " << max << endl; // Max = 20
+    return 0;
+}
