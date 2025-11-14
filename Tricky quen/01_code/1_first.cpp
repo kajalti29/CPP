@@ -1,7 +1,10 @@
-#include<iostream>
-using namespace std;
-int main(){
-    int a = 5;
-    cout<< a++ + ++a;
-    return 0;
-}
+// Question: What will be the output ? 
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int a = 5;
+//     cout<< a++ + ++a;
+//     return 0;
+// }
+
