@@ -31,6 +31,8 @@ return 0 means successful execution
 
 ---------------------------------------------------------------------------------------------------------------------------
 <!-- 3. Data Types:_ -->
+Data type define the type of data a variable can store - like number, text and true/false values etc.
+
 Hindi: Data type batata hai ki variable kis type ka data store karega.
 
 
@@ -44,8 +46,8 @@ bool	   1 byte	   true/false
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-<!-- 4. Variables & Constants -->
-English: Variable stores data; constant value change nahi hoti.
+<!-- 4. Variables-->
+A variable is a named memory location used to store data that can change during program execution.
 
 #include<iostream>
 using namespace std;
@@ -385,6 +387,36 @@ void change(int &x){
     x = 50;
 } -->
 
+
+---------------------------------------------------------------------------------------------------------------------------
+🔹 What is an Array?
+An array is a collection of similar data types stored at continuous memory locations.
+
+int arr[5];
+
+int arr[] = {1, 2, 3};
+cout << arr[0];  // first element
+cout << arr[2];  // third element
+
+<!-- 👉 Index 0 se start hota hai -->
+
+🔹 Types of Array:-
+1️⃣ One Dimensional Array
+<!-- int a[3] = {1, 2, 3}; -->
+
+2️⃣ Two Dimensional Array (2D Array)
+<!--
+ int a[2][2] = {
+    {1, 2},
+    {3, 4}
+}; -->
+----------------------------------------------------------------------------------------------------------------------
+🔹 What is a String?
+String is a collection of characters.
+--------------------------------------------------------------------------------------------------------------------
+<!-- 📌 RECURSION in C++ -->
+🔹 What is Recursion?
+Recursion is a process in which a function calls itself.
 -----------------------------------------------------------------------------------------------------------------------
 
 <!-- 🔷 POINTERS IN C++ -->
@@ -395,3 +427,97 @@ A pointer is a variable that stores the address of another variable.
 Pointer ek aisa variable hota hai jo kisi dusre variable ka address store karta hai.
 
 <!-- 🔹 Why do we need Pointers? -->
+* Efficient memory usage
+* Dynamic memory allocation
+* Used in arrays, functions, data structures
+
+<!-- Syntax of Pointer -->
+data_type *pointer_name;
+
+
+<!-- Example: -->
+int *p;
+
+<!-- <(👉 p ek pointer hai jo int type ke variable ka address store karega.) --> -->
+
+<!-- #include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    int *p;
+
+    p = &a;
+
+    cout << "Value of a: " << a << endl;
+    cout << "Address of a: " << &a << endl;
+    cout << "Value stored in p: " << p << endl;
+    cout << "Value pointed by p: " << *p << endl;
+
+    return 0;
+} -->
+
+Output Explanation:
+a → 10
+&a → address of a
+p → address of a
+*p → value at that address (10)
+
+
+<!-- 🔹 & aur * ka relation (Most Important) -->
+| Operator | Kaam                | Matlab                |
+| -------- | ------------------- | --------------------- |
+| `&`      | Address nikalta hai | Address of variable   |
+| `*`      | Value nikalta hai   | Value at that address |
+
+<!-- Real Life Example 📦
+
+* Array = Box ke andar items
+* Pointer = Box ka address
+* Function = Dost ko address de diya
+* Dost directly box ke items change kar sakta hai -->
+
+
+🔹 Ab bilkul basic code dekho 👇
+
+int a = 10;
+int *p = &a;
+
+<!-- 
+a → 10
+&a → address
+p → address
+*p → 10 
+-->
+
+cout << a << endl;   // 10
+cout << p << endl;   // address
+cout << *p << endl;  // 10
+----------------------------------------------------------------------------------------------------------------------------
+🔹 Ab ARRAY ko easy way me samjho:- 
+int arr[3] = {10, 20, 30};
+
+Memory me aisa hota hai 👇
+
+Address	Value
+100	10
+104	20
+108	30
+
+<!-- int *p = arr; -->
+<!-- cout << *p << endl;       // 10
+cout << *(p + 1) << endl; // 20
+cout << *(p + 2) << endl; // 30 -->
+
+
+<!-- 
+Logic:
+
+p → arr[0]
+p+1 → arr[1]
+p+2 → arr[2] -->
+
+<!-- arr[i] = *(p + i) --> yaad rkho
+----------------------------------------------------------------------------------------------------------------------
+
+
